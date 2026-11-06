@@ -1,4 +1,4 @@
-const WA = "994000000000", $ = s => document.querySelector(s) || document.createElement("div");
+const WA = "994553083152", $ = s => document.querySelector(s) || document.createElement("div");
 const G = [["Xarici dillər", ["İngilis dili","Rus dili","Alman dili","Fransız dili"]], ["Məktəb fənləri", ["Azərbaycan dili","Ədəbiyyat","Riyaziyyat","Fizika","Kimya","Biologiya","Tarix","Coğrafiya","İnformatika","Məntiq"]]];
 const chosen = new Set(); let bolme = "Azərbaycan";
 const wa = msg => window.open("https://wa.me/" + WA + "?text=" + encodeURIComponent(msg), "_blank", "noopener");
